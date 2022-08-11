@@ -8,6 +8,7 @@
 </template>
 
 <script>
+	import {navGoto} from '@/utils/utils'
 	export default {
 		data() {
 			return {
@@ -15,7 +16,7 @@
 			}
 		},
 		onLoad() {
-
+			navGoto('/pages/loading/index')
 		},
 		methods: {
 
